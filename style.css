@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    font-family: "Roboto", sans-serif;
+    width: 98%;
+    margin: 0 auto;
+}
+
+/* Banner section */
+
+.banner {
+    background-image: url('/images/Group\ 13\ \(1\)\ \(1\).png');
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: whitesmoke;
+    text-align: center;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+.banner h1 {
+    font-size: 65px;
+    margin-bottom: 15px;
+}
+.banner-input-options {
+    width: 50%;
+    margin: 25px auto 0;
+    display: flex;
+    gap: 10px;
+    padding: 20px 30px;
+    background-color: rgba(255, 255, 255, 0.30);
+    border-radius: 5px;
+}
+.banner-input {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.banner-submit {
+    background-color: #FF5400;
+    color: #fff;
+}
+.input-icon-container  {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.input-icon-container i{
+    position: absolute;
+    left: -45px;
+}
+.input-icon-container .down-icon {
+    color: rgba(19, 19, 24, 0.50);
+    left: 50px;
+}
+
+
+
+
+
+/* Media query */
+
+@media screen and (max-width: 600px){
+    .banner-input-options {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 601px)and (max-width: 768px){
+    .banner-input-options {
+        display: flex;
+        flex-direction: column;
+    }
+    .input-icon-container .down-icon {
+        color: rgba(19, 19, 24, 0.50);
+        left: 140px;
+    }
+}
+
+
+
