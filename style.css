@@ -288,6 +288,47 @@
     margin: 30px;
 }
 
+/* Extra section */
+.roaming-section-container {
+    margin: 60px 0;
+}
+.roaming-section-text {
+    text-align: center;
+}
+.roaming-section-content {
+    display: flex;
+    margin: 40px 0;
+}
+.roaming-section-main-content {
+    width: 60%;
+}
+.roaming-section-second {
+    width: 40%;
+}
+.roaming-section-pending {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin-bottom: 15px;
+    /* justify-content: center; */
+}
+.roaming-section-pending img{
+    width: 255px;
+    border-radius: 8px;
+}
+.date {
+    background-color: #ff5400;
+    color: #fff;
+    padding: 5px 8px;
+    border-radius: 8px;
+    width: 130px;
+    margin-left: 0;
+}
+
+.roaming-section-container p {
+    color: #5A5A5D;
+}
+
 /* newsletter section */
 
 .newsletter-text-container {
@@ -466,6 +507,31 @@
         height: 40px;
         padding-left: 100px;
     }
+    .roaming-section-content {
+        display: flex;
+        flex-direction: column;
+        /* margin: 40px 0; */
+    }
+    .roaming-section-main-content {
+        width: 100%;
+    }
+    .roaming-section-pending {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+        margin-bottom: 15px;
+        margin-top: 30px;
+        /* justify-content: center; */
+    }
+    .roaming-section-second {
+        width: 100%;
+    }
+    .roaming-section-pending img{
+        width: 100%;
+        border-radius: 8px;
+        margin-bottom: 10px;
+    }
 }
 
 @media screen and (min-width: 601px) and (max-width: 768px) {
@@ -481,5 +547,30 @@
         list-style: none;
         display: contents;
         text-align: end;
+    }
+    .roaming-section-content {
+        display: flex;
+        flex-direction: column;
+        /* margin: 40px 0; */
+    }
+    .roaming-section-main-content {
+        width: 100%;
+    }
+    .roaming-section-pending {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+        margin-bottom: 15px;
+        margin-top: 30px;
+        /* justify-content: center; */
+    }
+    .roaming-section-second {
+        width: 100%;
+    }
+    .roaming-section-pending img{
+        width: 100%;
+        border-radius: 8px;
+        margin-bottom: 10px;
     }
 }
