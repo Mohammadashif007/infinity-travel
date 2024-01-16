@@ -96,8 +96,9 @@
 } */
 
 /* chose your destination section */
-.destination-container {
+.section-container {
     margin-top: 100px;
+    text-align: center;
 }
 .destination-text {
     text-align: center;
@@ -125,6 +126,97 @@
 .section-title {
     margin-bottom: 20px;
     font-size: 40px;
+
+}
+
+/* Why chose us section */
+
+.img-icon {
+    font-size: 40px;
+}
+
+.service-container {
+    display: flex;
+    gap: 40px;
+    margin-top: 30px;
+}
+
+.hotel-container {
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background-color: rgba(251, 181, 99, 0.05);
+    border-radius: 5px;
+    padding: 20px;
+    text-align: start;
+}
+.hotel-container h3{
+    margin: 20px 0;
+}
+.location-container {
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    border-radius: 5px;
+    padding: 20px;
+    text-align: start;
+}
+.location-container h3{
+    margin: 20px 0;
+}
+.price-container {
+    width: 50%;
+    margin-top: 40px;
+}
+
+/* Deal section */
+
+.deals-text {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.deals-discounts-container {
+    margin-top: 50px;
+}
+.deals-img-container {
+    position: relative;
+}
+.deals-img-text {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.80);
+    width: 40%;
+    right: 10%;
+    top: 20%;
+    padding: 40px;
+    border-radius: 5px;
+}
+.deals-img-title {
+    margin: 20px 0;
+}
+.deals-img-text p {
+    margin: 20px 0;
+    color: #5A5A5D;
+}
+.lost-section-container {
+    display: flex;
+    margin-top: 70px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+
+/* get lost section */
+
+.lost-section-container h2 {
+    margin: 30px;
+}
+.lost-section-container p {
+    margin: 30px;
+}
+.lost-section-container ul {
+    margin: 30px;
+}
+.lost-section-container ul>li {
+    margin: 30px;
 }
 
 
