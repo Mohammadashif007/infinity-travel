@@ -209,7 +209,7 @@
     margin-top: 40px;
 }
 
-/* Deal section */
+/* Deals section */
 
 .deals-text {
     text-align: center;
@@ -402,6 +402,69 @@
         text-align: end;
         padding-right: 15px;
         font-size: 30px;
+    }
+    .destination-img-first-row {
+        display: flex;
+        flex-direction: column;
+        gap: 18px;
+        margin-top: 18px;
+    }
+    .bangladesh {
+        width: 100%;
+    }
+    
+    .kashmir {
+        width: 100%;
+    }
+    .service-container {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        margin-top: 30px;
+    }
+    .price-container {
+        width: 100%;
+        margin-top: 40px;
+    }
+    .deals-img-container {
+        position: static;
+    }
+    .deals-img-text {
+        position: static;
+        background-color: rgba(255, 255, 255, 0.8);
+        width: 100%;
+        right: 10%;
+        top: 20%;
+        padding: 40px;
+        border-radius: 5px;
+    }
+    .deals-img-text-2 {
+        position: static;
+        background-color: rgba(255, 255, 255, 0.8);
+        width: 100%;
+        left: 5%;
+        top: 20%;
+        padding: 40px;
+        border-radius: 5px;
+    }
+    .lost-section-container {
+        display: flex;
+        flex-direction: column;
+        margin-top: 70px;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+    }
+    .newsletter-text-container {
+        width: 90%;
+        border-radius: 16px;
+        border: 1px solid #ff5400;
+        padding: 30px;
+    }
+    .footer-logo img{
+        width: 40px;
+        height: 40px;
+        padding-left: 100px;
     }
 }
 
